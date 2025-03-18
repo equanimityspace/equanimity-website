@@ -150,6 +150,23 @@ nav a:hover {
   border-bottom-left-radius: 5px;
 }
 
+/* About */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.about p1 {
+  padding-left: 5%;
+}
+
+.about p1,
+.about h3 {
+  width: 600px;
+  margin-top: 200px;
+}
+
 /* Contact Information */
 .contact h1,
 .contact p1 {
