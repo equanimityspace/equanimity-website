@@ -2,10 +2,6 @@ body {
   font-family: helvetica;
 }
 
-card {
-  color: rgb(237, 230, 223);
-}
-
 main {
   display: flex;
   justify-content: space-evenly;
@@ -16,6 +12,11 @@ main {
 .main-child-img {
   max-width: 35rem;
 }
+
+.card-img-top {
+  max-width: 45rem;
+}
+
 main div ul {
   list-style: none;
 }
@@ -23,23 +24,6 @@ main div ul {
 main div ul a {
   text-decoration: none;
   color: black;
-}
-
-/* About */
-.about {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.about p1 {
-  padding-left: 5%;
-}
-
-.about p1,
-.about h3 {
-  width: 600px;
-  margin-top: 200px;
 }
 
 /* Contact */
