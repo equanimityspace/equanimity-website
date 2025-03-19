@@ -6,12 +6,11 @@ card {
   color: rgb(237, 230, 223);
 }
 
-main div {
+main {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   align-items: center;
-  height: auto;
+  flex-wrap: wrap;
 }
 
 main div ul {
