@@ -8,7 +8,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
-div {
+main {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -168,7 +168,7 @@ nav a:hover {
   margin-top: 200px;
 }
 
-/* Contact Information */
+/* Contact */
 .contact h1,
 .contact p1 {
   margin: 0;
@@ -177,4 +177,8 @@ nav a:hover {
   justify-content: center;
   align-items: flex-start;
   width: 100%;
+}
+
+form {
+  padding: 2rem;
 }
