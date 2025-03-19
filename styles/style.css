@@ -52,48 +52,6 @@ div ul {
   list-style: none;
 }
 
-/* nav bar */
-header {
-  position: fixed;
-  background-color: rgb(255, 255, 255);
-  align-content: start;
-  width: 100%;
-  height: 55px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-nav a,
-nav a:visited {
-  color: rgb(86, 86, 86);
-  text-decoration: none;
-  background-color: rgb(237, 230, 223);
-  padding: 7px 12px;
-  border-radius: 10px;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: rgb(0, 0, 0);
-}
-
-.navname {
-  color: rgb(0, 0, 0);
-  margin-left: 1%;
-  margin-right: 55%;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.navlink {
-  margin-left: 2%;
-}
-
 /* index.html */
 .home-p1 {
   margin-left: 5%;
