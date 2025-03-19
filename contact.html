@@ -16,7 +16,7 @@
   </head>
   <body>
     <body>
-      <!-- persistant header / nav bar -->
+      <!-- nav bar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Ryan Cutrone</a>
@@ -50,11 +50,21 @@
         </div>
       </nav>
 
-    <main class="contact">
-      <h1>Contact Information</h1>
-      <p1>Ryan Cutrone | 999-999-9999 | ryan.cutrone@gmail.com</p1>
-    </main>
-
+    <!-- header card -->
+    <div
+    class="card text-start bg-success-subtle text-success-emphasis"
+    style="width: 100%"
+  >
+      <div class="card-body pt-5 text-center">
+        <h5 class="card-title fs-1">Contact Information</h5>
+        <h6 class="card-subtitle text-body-secondary fs-3 pt-1">
+          Ryan Cutrone | ryan.cutrone@gmail.com
+        </h6>
+        <p class="card-text"></p>
+        <a href="#" class="card-link"></a>
+        <a href="#" class="card-link"></a>
+      </div>
+    </div>
     <form>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
@@ -79,11 +89,7 @@
           placeholder="Password"
         />
       </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary mt-2">Submit</button>
     </form>
 
     <!-- custom js -->
