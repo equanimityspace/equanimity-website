@@ -13,6 +13,9 @@ main {
   flex-wrap: wrap;
 }
 
+.main-child-img {
+  max-width: 35rem;
+}
 main div ul {
   list-style: none;
 }
