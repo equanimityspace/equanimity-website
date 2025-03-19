@@ -31,7 +31,17 @@ main div ul {
   list-style: none;
 }
 
-/* Contact */
 form {
-  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 51rem;
+}
+
+.name {
+  width: 22rem;
+  margin-right: 2rem;
+}
+.login {
+  width: 46rem;
 }
