@@ -1,5 +1,5 @@
 body {
-  font-family: helvetica;
+  font-family: helvetica !important; /* I know this is a cop-out but no use for other selectors */
 }
 
 main {
@@ -15,7 +15,7 @@ main {
 }
 
 .main-child-img {
-  max-width: 35rem;
+  min-width: 35rem;
 }
 
 .main-child-p {
