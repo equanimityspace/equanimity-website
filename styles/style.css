@@ -75,7 +75,6 @@ main div ul {
 form {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
   width: 51rem;
 }
 
