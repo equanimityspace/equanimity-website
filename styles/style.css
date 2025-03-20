@@ -1,3 +1,5 @@
+/* global */
+
 body {
   font-family: helvetica;
 }
@@ -7,6 +9,10 @@ main {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+}
+
+main div ul {
+  list-style: none;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -21,6 +27,7 @@ main {
   padding-left: 4rem;
 }
 
+/* Home */
 /* cool blinking cursor effect 
    
    source: https://www.amitmerchant.com/simple-blinking-cursor-animation-using-css/
@@ -51,17 +58,19 @@ main {
   max-width: 30rem;
 }
 
+/* About */
+
 .about-child-img {
   max-width: 40rem;
 }
+
+/* portfolio */
 
 .card-img-top {
   max-width: 45rem;
 }
 
-main div ul {
-  list-style: none;
-}
+/* contact */
 
 form {
   display: flex;
