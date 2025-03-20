@@ -1,5 +1,5 @@
 body {
-  font-family: helvetica !important; /* I know this is a cop-out but no use for other selectors */
+  font-family: helvetica;
 }
 
 main {
@@ -9,9 +9,37 @@ main {
   flex-wrap: wrap;
 }
 
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  justify-content: flex-end;
+  margin-right: 8rem;
+}
+
 .card-title,
 .card-subtitle {
   padding-left: 4rem;
+}
+
+/* cool blinking cursor effect 
+   
+   source: https://www.amitmerchant.com/simple-blinking-cursor-animation-using-css/
+*/
+.card-title::after {
+  content: "";
+  width: 4px;
+  height: 32px;
+  background-color: black;
+  display: inline-block;
+  margin-left: 10px;
+  animation: cursor-blink 1.2s steps(2) infinite;
+}
+
+/* animation source */
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
 }
 
 .main-child-img {
