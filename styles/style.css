@@ -10,7 +10,7 @@ main {
 }
 
 .navbar-expand-lg .navbar-collapse {
-  display: flex !important;
+  display: flex;
   flex-basis: auto;
   justify-content: flex-end;
   margin-right: 8rem;
@@ -25,7 +25,7 @@ main {
    
    source: https://www.amitmerchant.com/simple-blinking-cursor-animation-using-css/
 */
-.card-title::after {
+.home-title::after {
   content: "";
   width: 4px;
   height: 32px;
@@ -49,6 +49,10 @@ main {
 .main-child-p {
   font-size: 1.3rem;
   max-width: 30rem;
+}
+
+.about-child-img {
+  max-width: 40rem;
 }
 
 .card-img-top {
